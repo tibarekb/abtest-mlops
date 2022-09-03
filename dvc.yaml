@@ -1,0 +1,33 @@
+stages:
+  # first stage in the pipeline
+  # prepare:
+  #   cmd: python scripts/plot.py ../data/data.csv
+  #   deps:
+  #   - scripts/plot.py
+  #   outs:
+  #   - data/eda.csv
+  train:
+    cmd: cd pipeline && python train.py ../data/data.csv
+    deps:
+    - data/data.csv
+    - pipeline/train.py
+    outs:
+    - data/platos5.csv
+  crossValidation:
+    cmd: cd pipeline && python cross_validator.py 5 ../data/platos5.csv
+    params:
+    - validation.folds
+    deps:
+    - data/platos5.csv
+    - pipeline/cross_validator.py
+    outs:
+    - data/validation.csv
+  evaluate:
+    cmd: cd pipeline && python evaluate.py 5 ../data/validation.csv
+    params:
+    - validation.folds
+    deps:
+    - data/validation.csv
+    - pipeline/evaluate.py
+    outs:
+    - data/results.csv
