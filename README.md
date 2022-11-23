@@ -108,9 +108,9 @@ Make sure you have docker installed on local machine.
 <!-- CONTACT -->
 ## Contact
  
-Bekalu Tadele 
-Mohammed EsamAldeen 
-Andenet Alexander 
+Bekalu Tadele </br>
+Mohammed EsamAldeen </br>
+Andenet Alexander </br>
 Tibarek Berassu - tibarekberassu@gmail.com
 
 
