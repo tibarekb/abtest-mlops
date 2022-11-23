@@ -88,9 +88,7 @@ Tech Stack used in this project
 
 ### Prerequisites
 
-Make sure you have docker installed on local machine.
-* Docker
-* DockerCompose
+
   
 ### Installation
 
@@ -98,10 +96,6 @@ Make sure you have docker installed on local machine.
    ```sh
    git clone https://github.com/tibarekb/abtest-mlops.git
    cd abtest-mlops
-   ```
-2. Run
-   ```sh
-    docker-compose -f docker-compose.yaml up --build
    ```
 
 
