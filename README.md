@@ -1,26 +1,8 @@
-# abtest-mlops
-using A/B testing to test if the ads that the advertising company ran resulted in a significant lift in brand awareness
 
-# OBJECTIVE
 
-An advertising company is running an online ad for a client with the intention of increasing brand awareness. The advertiser company earns money by charging the client based on user engagements with the ad it designed and serves via different platforms. To increase its market competitiveness, the advertising company provides a further service that quantifies the increase in brand awareness as a result of the ads it shows to online users. The main objective of this project is to test if the ads that the advertising company runs resulted in a significant lift in brand awareness.
 
-# Repository overview
 
-# Requirements
-
-# Hypothesis
-
-# Results
-
-# Contributors
-
-Bekalu Tadele <br />
-Mohammed EsamAldeen <br />
-Andenet Alexander <br />
-Tibarek Berassu <br />
-
-# Datawarehouse
+# ABTest MLOPs
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -33,10 +15,10 @@ Tibarek Berassu <br />
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h3 align="center">City Traffic Data Warehouse</h3>
+  <h3 align="center">A/B Testing</h3>
 
   <p align="center">
-    A fully dockerized ELT pipeline project, using Airflow, PostgreSQL, DBT, and Redash.
+   Using A/B testing to test if the ads that the advertising company ran resulted in a significant lift in brand awareness
     <br />
    
   </p>
@@ -80,22 +62,16 @@ Tibarek Berassu <br />
 
 ### Introduction
 
-A city traffic department wants to collect traffic data using swarm UAVs (drones) from a
-number of locations in the city and use the data collected for improving traffic flow in the
-city and for a number of other undisclosed projects.
+An advertising company is running an online ad for a client with the intention of increasing brand awareness. The advertiser company earns money by charging the client based on user engagements with the ad it designed and serves via different platforms.
 
 
 ### Objective
 
-Create a scalable data warehouse that will host the vehicle trajectory data extracted by
-analyzing footage taken by swarm drones and static roadside cameras.
-The data warehouse should take into account future needs, organize data such that a
-number of downstream projects query the data efficiently. Ue the Extract Load
-Transform (ELT) framework using DBT. 
+To increase its market competitiveness, the advertising company provides a further service that quantifies the increase in brand awareness as a result of the ads it shows to online users. The main objective of this project is to test if the ads that the advertising company runs resulted in a significant lift in brand awareness. 
 
 ### Data
 
-In this project I have used pNEUMA data.pNEUMA data is open large-scale dataset of naturalistic trajectories of half a million vehicles that have been collected by a one-of-a-kind experiment by a swarm of drones in the congested downtown area of Athens, Greece.
+
 
 
 ### Built With
@@ -120,8 +96,8 @@ Make sure you have docker installed on local machine.
 
 1. Clone the repo and Navigate
    ```sh
-   git clone https://github.com/tibarekb/data-warehouse.git
-   cd data-warehouse
+   git clone https://github.com/tibarekb/abtest-mlops.git
+   cd abtest-mlops
    ```
 2. Run
    ```sh
@@ -131,9 +107,11 @@ Make sure you have docker installed on local machine.
 
 <!-- CONTACT -->
 ## Contact
-
+ 
+Bekalu Tadele 
+Mohammed EsamAldeen 
+Andenet Alexander 
 Tibarek Berassu - tibarekberassu@gmail.com
-
 
 
 <!-- ACKNOWLEDGEMENTS -->
